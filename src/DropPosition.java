@@ -10,4 +10,9 @@ public class DropPosition {
 		xpos = x;
 		rot = r;
 	}
+	
+	@Override
+	public String toString() {
+		return "xpos:" + xpos + " rot:" + rot;
+	}
 }
